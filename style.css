@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header > img{
+    width: 5em;
+    margin:0 50%
+}
+header .logo{
+    padding-left: 10em;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: yellowgreen;
+    font-size: 2em;
+}
+
+/* .second{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+} */
+.first .rice img {
+   height: 60em;
+   width: 85em;
+   position: absolute;
+}
+.secP{
+    position: relative;
+    color: #fff;
+    padding-left: 1em;
+
+}
+.secP h2{
+    font-size: 3em;
+    line-height: 2;
+    padding-top: 3em;
+}
+.second .secDiv .secImg{
+    /* margin-top: 3em; */
+    width: 20em;
+    /* padding-top: 2em; */
+    
+}
+.secDiv{
+    border: 1px solid bisque;
+    width: 25em;
+    padding-top: 2em;
+    border-radius: 1em;
+    margin-top: 44em;
+    background-color: bisque;
+    text-align: center;
+
+
+}
+
+.secDiv h5{
+    font-size: 1.5em;
+}
+.secImg1, .secImg2{
+    width: 20em;
+    /* margin-top: 42em; */
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    line-height: 2;
+}
+footer .fDiv img{
+    width: 10em;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10em;
+}
+.close{
+    display: none;
+}
+@media screen and (max-width: 480px) {
+.close{
+    display: block;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding:10px ;
+    background-color: bisque;
+   
+
+}
+header > img{
+    margin: 0;
+    width: 20px;
+}
+nav ul{
+    display: none;
+    text-align: center;
+    
+}
+main{
+    width: 100%;
+}
+.second{
+    display: block;
+}
+.one{
+    margin-top: 35em;
+    width: 100%;
+}
+.two, .three{
+    margin-top: 10px;
+    width: 100%;
+    justify-items: center;
+}
+footer{
+    margin-top: 2em;
+}
+}
+    
